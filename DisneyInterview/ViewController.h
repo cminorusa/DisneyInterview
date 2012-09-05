@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIAccelerometerDelegate>
+
+@property (nonatomic, weak) IBOutlet UILabel *greetingLbl;
+@property (nonatomic, weak) IBOutlet UILabel *directionLbl;
+@property (nonatomic, weak) IBOutlet UILabel *whichOneLbl;
 
 @end
