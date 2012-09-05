@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5326A1AC15F7BDC300B1F375 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5326A1AB15F7BDC300B1F375 /* UIKit.framework */; };
+		5326A1AE15F7BDC300B1F375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5326A1AD15F7BDC300B1F375 /* Foundation.framework */; };
+		5326A1B015F7BDC300B1F375 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5326A1AF15F7BDC300B1F375 /* CoreGraphics.framework */; };
+		5326A1B615F7BDC300B1F375 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5326A1B415F7BDC300B1F375 /* InfoPlist.strings */; };
+		5326A1B815F7BDC300B1F375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5326A1B715F7BDC300B1F375 /* main.m */; };
+		5326A1BC15F7BDC300B1F375 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5326A1BB15F7BDC300B1F375 /* AppDelegate.m */; };
+		5326A1BF15F7BDC300B1F375 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5326A1BE15F7BDC300B1F375 /* ViewController.m */; };
+		5326A1C215F7BDC300B1F375 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5326A1C015F7BDC300B1F375 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5326A1A715F7BDC300B1F375 /* DisneyInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5326A1AB15F7BDC300B1F375 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5326A1AD15F7BDC300B1F375 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5326A1AF15F7BDC300B1F375 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5326A1B315F7BDC300B1F375 /* DisneyInterview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DisneyInterview-Info.plist"; sourceTree = "<group>"; };
+		5326A1B515F7BDC300B1F375 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5326A1B715F7BDC300B1F375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5326A1B915F7BDC300B1F375 /* DisneyInterview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DisneyInterview-Prefix.pch"; sourceTree = "<group>"; };
+		5326A1BA15F7BDC300B1F375 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5326A1BB15F7BDC300B1F375 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5326A1BD15F7BDC300B1F375 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5326A1BE15F7BDC300B1F375 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5326A1C115F7BDC300B1F375 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5326A1A415F7BDC300B1F375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5326A1AC15F7BDC300B1F375 /* UIKit.framework in Frameworks */,
+				5326A1AE15F7BDC300B1F375 /* Foundation.framework in Frameworks */,
+				5326A1B015F7BDC300B1F375 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5326A19C15F7BDC200B1F375 = {
+			isa = PBXGroup;
+			children = (
+				5326A1B115F7BDC300B1F375 /* DisneyInterview */,
+				5326A1AA15F7BDC300B1F375 /* Frameworks */,
+				5326A1A815F7BDC300B1F375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5326A1A815F7BDC300B1F375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5326A1A715F7BDC300B1F375 /* DisneyInterview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5326A1AA15F7BDC300B1F375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5326A1AB15F7BDC300B1F375 /* UIKit.framework */,
+				5326A1AD15F7BDC300B1F375 /* Foundation.framework */,
+				5326A1AF15F7BDC300B1F375 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5326A1B115F7BDC300B1F375 /* DisneyInterview */ = {
+			isa = PBXGroup;
+			children = (
+				5326A1BA15F7BDC300B1F375 /* AppDelegate.h */,
+				5326A1BB15F7BDC300B1F375 /* AppDelegate.m */,
+				5326A1BD15F7BDC300B1F375 /* ViewController.h */,
+				5326A1BE15F7BDC300B1F375 /* ViewController.m */,
+				5326A1C015F7BDC300B1F375 /* ViewController.xib */,
+				5326A1B215F7BDC300B1F375 /* Supporting Files */,
+			);
+			path = DisneyInterview;
+			sourceTree = "<group>";
+		};
+		5326A1B215F7BDC300B1F375 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5326A1B315F7BDC300B1F375 /* DisneyInterview-Info.plist */,
+				5326A1B415F7BDC300B1F375 /* InfoPlist.strings */,
+				5326A1B715F7BDC300B1F375 /* main.m */,
+				5326A1B915F7BDC300B1F375 /* DisneyInterview-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5326A1A615F7BDC300B1F375 /* DisneyInterview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5326A1C515F7BDC300B1F375 /* Build configuration list for PBXNativeTarget "DisneyInterview" */;
+			buildPhases = (
+				5326A1A315F7BDC300B1F375 /* Sources */,
+				5326A1A415F7BDC300B1F375 /* Frameworks */,
+				5326A1A515F7BDC300B1F375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisneyInterview;
+			productName = DisneyInterview;
+			productReference = 5326A1A715F7BDC300B1F375 /* DisneyInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5326A19E15F7BDC200B1F375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Clifford Sharp";
+			};
+			buildConfigurationList = 5326A1A115F7BDC200B1F375 /* Build configuration list for PBXProject "DisneyInterview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5326A19C15F7BDC200B1F375;
+			productRefGroup = 5326A1A815F7BDC300B1F375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5326A1A615F7BDC300B1F375 /* DisneyInterview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5326A1A515F7BDC300B1F375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5326A1B615F7BDC300B1F375 /* InfoPlist.strings in Resources */,
+				5326A1C215F7BDC300B1F375 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5326A1A315F7BDC300B1F375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5326A1B815F7BDC300B1F375 /* main.m in Sources */,
+				5326A1BC15F7BDC300B1F375 /* AppDelegate.m in Sources */,
+				5326A1BF15F7BDC300B1F375 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5326A1B415F7BDC300B1F375 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5326A1B515F7BDC300B1F375 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5326A1C015F7BDC300B1F375 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5326A1C115F7BDC300B1F375 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5326A1C315F7BDC300B1F375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5326A1C415F7BDC300B1F375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5326A1C615F7BDC300B1F375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DisneyInterview/DisneyInterview-Prefix.pch";
+				INFOPLIST_FILE = "DisneyInterview/DisneyInterview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5326A1C715F7BDC300B1F375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DisneyInterview/DisneyInterview-Prefix.pch";
+				INFOPLIST_FILE = "DisneyInterview/DisneyInterview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5326A1A115F7BDC200B1F375 /* Build configuration list for PBXProject "DisneyInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5326A1C315F7BDC300B1F375 /* Debug */,
+				5326A1C415F7BDC300B1F375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5326A1C515F7BDC300B1F375 /* Build configuration list for PBXNativeTarget "DisneyInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5326A1C615F7BDC300B1F375 /* Debug */,
+				5326A1C715F7BDC300B1F375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5326A19E15F7BDC200B1F375 /* Project object */;
+}
